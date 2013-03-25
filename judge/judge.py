@@ -21,15 +21,15 @@ class Judge(object):
 
     def _run_io_check(self, test):
         out = TimeoutCommand( test["args"], test["timelimit"] ).exe()
-		
-		if out == self.expected:
-			print "bingo!"
-		else:
-			print "failed!"
+        out = out.strip()
+        if out == test["expected"]:
+            print "bingo!"
+        else:
+            print "failed!"
 
     def _run_file_diff(self, test):
         TimeoutCommand( test["args"], test["timelimit"] ).exe()
 
 if __name__=="__main__":
-	from sys import stderr
-	print >> stderr, "library is not runnable"
+    from sys import stderr
+    print >> stderr, "library is not runnable"

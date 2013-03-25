@@ -6,8 +6,6 @@ class TimeoutCommand(threading.Thread):
         threading.Thread.__init__(self)
         self.args    = args
         self.timeout = timeout
-		self.stdout  = stdout
-		self.stderr  = stderr
 
     def run(self):
         self.p = subprocess.Popen(self.args, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -20,9 +18,9 @@ class TimeoutCommand(threading.Thread):
         if self.is_alive():
             self.p.terminate()
             self.join()
-		
-		return self.p.stdout.read()
-			
+        
+        return self.p.stdout.read()
+            
 if __name__=="__main__":
-	import stderr
-	print >> stderr, "library is not runnable"
+    import stderr
+    print >> stderr, "library is not runnable"
