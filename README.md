@@ -9,14 +9,17 @@
 内容
 ----
 
-1 shell练习
-	1.1 shell基础练习
-	1.2 grep练习
-	1.3 awk练习
-	1.4 sed练习
-2 python练习
-	2.1 BI标注词序列转换
-	2.2 NGram统计
-	2.3 正向最大匹配分词
-	2.4 HMM词性标注
+### shell练习
+
+1. shell基础练习
+2. grep练习
+3. awk练习
+4. sed练习
+
+### python练习
+
+1. BI标注词序列转换
+2. NGram统计
+3. 正向最大匹配分词
+4. HMM词性标注
 
