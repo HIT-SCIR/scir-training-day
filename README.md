@@ -23,3 +23,4 @@
 3. 正向最大匹配分词
 4. HMM词性标注
 5. NumPy向量处理
+6. SciPy稀疏矩阵(sparse matrix)操作
