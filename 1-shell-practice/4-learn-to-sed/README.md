@@ -13,9 +13,10 @@
 
 ### 1
 去掉文件中的空行
-[数据1.dat]()
+
+[数据1.dat](https://github.com/Oneplus/scir-training-day/blob/master/1-shell-practice/4-learn-to-sed/1.dat)
 
 ### 2
 某个文件包含三列，第三列是文本，但是文本被`'`扩了起来，请用提取出这一列并去掉开头和结尾的`'`符号。
-[数据2.dat]()
 
+[数据2.dat](https://github.com/Oneplus/scir-training-day/blob/master/1-shell-practice/4-learn-to-sed/2.dat)
