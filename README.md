@@ -11,16 +11,16 @@
 
 ### shell练习
 
-1. shell基础练习
-2. grep练习
+1. [shell基础练习](https://github.com/Oneplus/scir-training-day/tree/master/1-shell-practice/1-fundamental-of-shell)
+2. [grep练习](https://github.com/Oneplus/scir-training-day/tree/master/1-shell-practice/2-learn-to-grep)
 3. awk练习
 4. sed练习
 
 ### python练习
 
-1. BI标注词序列转换
-2. NGram统计
-3. 正向最大匹配分词
+1. [BI标注词序列转换](https://github.com/Oneplus/scir-training-day/tree/master/2-python-practice/1-bi-label-to-words)
+2. [NGram统计](https://github.com/Oneplus/scir-training-day/tree/master/2-python-practice/2-ngram-count)
+3. [正向最大匹配分词](https://github.com/Oneplus/scir-training-day/tree/master/2-python-practice/3-max-matching-word-segmentation)
 4. HMM词性标注
 5. NumPy向量处理
 6. SciPy稀疏矩阵(sparse matrix)操作
