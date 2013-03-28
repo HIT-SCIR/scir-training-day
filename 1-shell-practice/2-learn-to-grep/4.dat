@@ -1,0 +1,1042 @@
+config items include:
+      agenda     5         
+      algorithm  MIRA      
+      dataset    NONE      
+      devolop    /users1/yjliu/work/corpus/ctb5/segment/complete/dev.corpus
+      dict       /users1/yjliu/work/corpus/ctb5/segment/dict/dict
+      itertime   30        
+      model      ./model/ctb5/segment/model
+      target     train     
+      test       /users1/yjliu/work/corpus/ctb5/segment/complete/test.corpus
+      train      /users1/yjliu/work/corpus/ctb5/segment/complete/train.corpus
+
+==========
+[TRACE] 2012/5/18 2:23:5 Reading corpus is done.
+[TRACE] 2012/5/18 2:23:5 Read train corpus [18086] line
+[TRACE] 2012/5/18 2:23:19 Extracting feature is done.
+[TRACE] 2012/5/18 2:23:20 Num feat: 2030543
+[TRACE] 2012/5/18 2:23:20 Num label: 4
+[TRACE] 2012/5/18 2:23:20 Num forms: 4294
+[TRACE] 2012/5/18 2:23:20 Decoder, Trainer, Evaluator is prepared.
+[TRACE] 2012/5/18 2:23:20 Dimension of parameter 8122192
+==========
+[TRACE] 2012/5/18 2:23:21 [1000] instances is trained.
+[TRACE] 2012/5/18 2:23:22 [2000] instances is trained.
+[TRACE] 2012/5/18 2:23:23 [3000] instances is trained.
+[TRACE] 2012/5/18 2:23:24 [4000] instances is trained.
+[TRACE] 2012/5/18 2:23:25 [5000] instances is trained.
+[TRACE] 2012/5/18 2:23:26 [6000] instances is trained.
+[TRACE] 2012/5/18 2:23:27 [7000] instances is trained.
+[TRACE] 2012/5/18 2:23:28 [8000] instances is trained.
+[TRACE] 2012/5/18 2:23:29 [9000] instances is trained.
+[TRACE] 2012/5/18 2:23:30 [10000] instances is trained.
+[TRACE] 2012/5/18 2:23:31 [11000] instances is trained.
+[TRACE] 2012/5/18 2:23:31 [12000] instances is trained.
+[TRACE] 2012/5/18 2:23:32 [13000] instances is trained.
+[TRACE] 2012/5/18 2:23:33 [14000] instances is trained.
+[TRACE] 2012/5/18 2:23:33 [15000] instances is trained.
+[TRACE] 2012/5/18 2:23:34 [16000] instances is trained.
+[TRACE] 2012/5/18 2:23:35 [17000] instances is trained.
+[TRACE] 2012/5/18 2:23:36 [18000] instances is trained.
+>> Reporting on iteration (1)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.90495196(6122/6765)	R=0.89752236(6122/6821)	F=0.90122185
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6122/6759)	R=0.89804900(6122/6817)	F=0.90188568
+* Labels:     p=0.91613965(10575/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.95241636(7686/8070)	R=0.95979021(7686/8008)	F=0.95608907
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7686/8068)	R=0.96002998(7686/8006)	F=0.95632699
+* Labels:     p=0.96287669(13228/13738)
+----------
+[TRACE] 2012/5/18 2:23:40 [1000] instances is trained.
+[TRACE] 2012/5/18 2:23:40 [2000] instances is trained.
+[TRACE] 2012/5/18 2:23:41 [3000] instances is trained.
+[TRACE] 2012/5/18 2:23:42 [4000] instances is trained.
+[TRACE] 2012/5/18 2:23:43 [5000] instances is trained.
+[TRACE] 2012/5/18 2:23:43 [6000] instances is trained.
+[TRACE] 2012/5/18 2:23:44 [7000] instances is trained.
+[TRACE] 2012/5/18 2:23:45 [8000] instances is trained.
+[TRACE] 2012/5/18 2:23:45 [9000] instances is trained.
+[TRACE] 2012/5/18 2:23:46 [10000] instances is trained.
+[TRACE] 2012/5/18 2:23:47 [11000] instances is trained.
+[TRACE] 2012/5/18 2:23:47 [12000] instances is trained.
+[TRACE] 2012/5/18 2:23:48 [13000] instances is trained.
+[TRACE] 2012/5/18 2:23:49 [14000] instances is trained.
+[TRACE] 2012/5/18 2:23:49 [15000] instances is trained.
+[TRACE] 2012/5/18 2:23:50 [16000] instances is trained.
+[TRACE] 2012/5/18 2:23:50 [17000] instances is trained.
+[TRACE] 2012/5/18 2:23:51 [18000] instances is trained.
+>> Reporting on iteration (2)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.93142604(6316/6781)	R=0.92596393(6316/6821)	F=0.92868696
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6316/6777)	R=0.92637137(6316/6818)	F=0.92916513
+* Labels:     p=0.94065668(10858/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.96419722(7783/8072)	R=0.97190310(7783/8008)	F=0.96803483
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7783/8072)	R=0.97190310(7783/8008)	F=0.96803483
+* Labels:     p=0.97343136(13373/13738)
+----------
+[TRACE] 2012/5/18 2:23:55 [1000] instances is trained.
+[TRACE] 2012/5/18 2:23:56 [2000] instances is trained.
+[TRACE] 2012/5/18 2:23:57 [3000] instances is trained.
+[TRACE] 2012/5/18 2:23:57 [4000] instances is trained.
+[TRACE] 2012/5/18 2:23:58 [5000] instances is trained.
+[TRACE] 2012/5/18 2:23:59 [6000] instances is trained.
+[TRACE] 2012/5/18 2:23:59 [7000] instances is trained.
+[TRACE] 2012/5/18 2:24:0 [8000] instances is trained.
+[TRACE] 2012/5/18 2:24:1 [9000] instances is trained.
+[TRACE] 2012/5/18 2:24:1 [10000] instances is trained.
+[TRACE] 2012/5/18 2:24:2 [11000] instances is trained.
+[TRACE] 2012/5/18 2:24:2 [12000] instances is trained.
+[TRACE] 2012/5/18 2:24:3 [13000] instances is trained.
+[TRACE] 2012/5/18 2:24:4 [14000] instances is trained.
+[TRACE] 2012/5/18 2:24:4 [15000] instances is trained.
+[TRACE] 2012/5/18 2:24:5 [16000] instances is trained.
+[TRACE] 2012/5/18 2:24:5 [17000] instances is trained.
+[TRACE] 2012/5/18 2:24:6 [18000] instances is trained.
+>> Reporting on iteration (3)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.93994393(6370/6777)	R=0.93388066(6370/6821)	F=0.93690249
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6370/6774)	R=0.93415457(6370/6819)	F=0.93724711
+* Labels:     p=0.94776055(10940/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.96878097(7820/8072)	R=0.97652348(7820/8008)	F=0.97263682
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7820/8072)	R=0.97652348(7820/8008)	F=0.97263682
+* Labels:     p=0.97736206(13427/13738)
+----------
+[TRACE] 2012/5/18 2:24:10 [1000] instances is trained.
+[TRACE] 2012/5/18 2:24:11 [2000] instances is trained.
+[TRACE] 2012/5/18 2:24:12 [3000] instances is trained.
+[TRACE] 2012/5/18 2:24:12 [4000] instances is trained.
+[TRACE] 2012/5/18 2:24:13 [5000] instances is trained.
+[TRACE] 2012/5/18 2:24:14 [6000] instances is trained.
+[TRACE] 2012/5/18 2:24:14 [7000] instances is trained.
+[TRACE] 2012/5/18 2:24:15 [8000] instances is trained.
+[TRACE] 2012/5/18 2:24:16 [9000] instances is trained.
+[TRACE] 2012/5/18 2:24:16 [10000] instances is trained.
+[TRACE] 2012/5/18 2:24:17 [11000] instances is trained.
+[TRACE] 2012/5/18 2:24:18 [12000] instances is trained.
+[TRACE] 2012/5/18 2:24:18 [13000] instances is trained.
+[TRACE] 2012/5/18 2:24:19 [14000] instances is trained.
+[TRACE] 2012/5/18 2:24:19 [15000] instances is trained.
+[TRACE] 2012/5/18 2:24:20 [16000] instances is trained.
+[TRACE] 2012/5/18 2:24:20 [17000] instances is trained.
+[TRACE] 2012/5/18 2:24:21 [18000] instances is trained.
+>> Reporting on iteration (4)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.94147995(6387/6784)	R=0.93637297(6387/6821)	F=0.93891951
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6387/6781)	R=0.93664760(6387/6819)	F=0.93926471
+* Labels:     p=0.94940657(10959/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.96976456(7826/8070)	R=0.97727273(7826/8008)	F=0.97350417
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7826/8070)	R=0.97727273(7826/8008)	F=0.97350417
+* Labels:     p=0.97816276(13438/13738)
+----------
+[TRACE] 2012/5/18 2:24:26 [1000] instances is trained.
+[TRACE] 2012/5/18 2:24:26 [2000] instances is trained.
+[TRACE] 2012/5/18 2:24:27 [3000] instances is trained.
+[TRACE] 2012/5/18 2:24:28 [4000] instances is trained.
+[TRACE] 2012/5/18 2:24:28 [5000] instances is trained.
+[TRACE] 2012/5/18 2:24:29 [6000] instances is trained.
+[TRACE] 2012/5/18 2:24:30 [7000] instances is trained.
+[TRACE] 2012/5/18 2:24:30 [8000] instances is trained.
+[TRACE] 2012/5/18 2:24:31 [9000] instances is trained.
+[TRACE] 2012/5/18 2:24:31 [10000] instances is trained.
+[TRACE] 2012/5/18 2:24:32 [11000] instances is trained.
+[TRACE] 2012/5/18 2:24:32 [12000] instances is trained.
+[TRACE] 2012/5/18 2:24:33 [13000] instances is trained.
+[TRACE] 2012/5/18 2:24:34 [14000] instances is trained.
+[TRACE] 2012/5/18 2:24:34 [15000] instances is trained.
+[TRACE] 2012/5/18 2:24:35 [16000] instances is trained.
+[TRACE] 2012/5/18 2:24:35 [17000] instances is trained.
+[TRACE] 2012/5/18 2:24:36 [18000] instances is trained.
+>> Reporting on iteration (5)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.94471473(6408/6783)	R=0.93945169(6408/6821)	F=0.94207586
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6408/6780)	R=0.93972723(6408/6819)	F=0.94242224
+* Labels:     p=0.95191891(10988/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97014001(7830/8071)	R=0.97777223(7830/8008)	F=0.97394117
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7830/8071)	R=0.97777223(7830/8008)	F=0.97394117
+* Labels:     p=0.97852671(13443/13738)
+----------
+[TRACE] 2012/5/18 2:24:40 [1000] instances is trained.
+[TRACE] 2012/5/18 2:24:41 [2000] instances is trained.
+[TRACE] 2012/5/18 2:24:42 [3000] instances is trained.
+[TRACE] 2012/5/18 2:24:42 [4000] instances is trained.
+[TRACE] 2012/5/18 2:24:43 [5000] instances is trained.
+[TRACE] 2012/5/18 2:24:44 [6000] instances is trained.
+[TRACE] 2012/5/18 2:24:44 [7000] instances is trained.
+[TRACE] 2012/5/18 2:24:45 [8000] instances is trained.
+[TRACE] 2012/5/18 2:24:46 [9000] instances is trained.
+[TRACE] 2012/5/18 2:24:46 [10000] instances is trained.
+[TRACE] 2012/5/18 2:24:47 [11000] instances is trained.
+[TRACE] 2012/5/18 2:24:47 [12000] instances is trained.
+[TRACE] 2012/5/18 2:24:48 [13000] instances is trained.
+[TRACE] 2012/5/18 2:24:48 [14000] instances is trained.
+[TRACE] 2012/5/18 2:24:49 [15000] instances is trained.
+[TRACE] 2012/5/18 2:24:50 [16000] instances is trained.
+[TRACE] 2012/5/18 2:24:50 [17000] instances is trained.
+[TRACE] 2012/5/18 2:24:51 [18000] instances is trained.
+>> Reporting on iteration (6)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.94547598(6416/6786)	R=0.94062454(6416/6821)	F=0.94304402
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6416/6783)	R=0.94090043(6416/6819)	F=0.94339068
+* Labels:     p=0.95269861(10997/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97075951(7835/8071)	R=0.97839660(7835/8008)	F=0.97456309
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7835/8071)	R=0.97839660(7835/8008)	F=0.97456309
+* Labels:     p=0.97910904(13451/13738)
+----------
+[TRACE] 2012/5/18 2:24:55 [1000] instances is trained.
+[TRACE] 2012/5/18 2:24:56 [2000] instances is trained.
+[TRACE] 2012/5/18 2:24:57 [3000] instances is trained.
+[TRACE] 2012/5/18 2:24:57 [4000] instances is trained.
+[TRACE] 2012/5/18 2:24:58 [5000] instances is trained.
+[TRACE] 2012/5/18 2:24:59 [6000] instances is trained.
+[TRACE] 2012/5/18 2:24:59 [7000] instances is trained.
+[TRACE] 2012/5/18 2:25:0 [8000] instances is trained.
+[TRACE] 2012/5/18 2:25:1 [9000] instances is trained.
+[TRACE] 2012/5/18 2:25:1 [10000] instances is trained.
+[TRACE] 2012/5/18 2:25:2 [11000] instances is trained.
+[TRACE] 2012/5/18 2:25:2 [12000] instances is trained.
+[TRACE] 2012/5/18 2:25:3 [13000] instances is trained.
+[TRACE] 2012/5/18 2:25:3 [14000] instances is trained.
+[TRACE] 2012/5/18 2:25:4 [15000] instances is trained.
+[TRACE] 2012/5/18 2:25:4 [16000] instances is trained.
+[TRACE] 2012/5/18 2:25:5 [17000] instances is trained.
+[TRACE] 2012/5/18 2:25:6 [18000] instances is trained.
+>> Reporting on iteration (7)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.94533667(6416/6787)	R=0.94062454(6416/6821)	F=0.94297472
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6416/6784)	R=0.94090043(6416/6819)	F=0.94332133
+* Labels:     p=0.95261197(10996/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97100731(7837/8071)	R=0.97864635(7837/8008)	F=0.97481187
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7837/8071)	R=0.97864635(7837/8008)	F=0.97481187
+* Labels:     p=0.97932741(13454/13738)
+----------
+[TRACE] 2012/5/18 2:25:10 [1000] instances is trained.
+[TRACE] 2012/5/18 2:25:11 [2000] instances is trained.
+[TRACE] 2012/5/18 2:25:12 [3000] instances is trained.
+[TRACE] 2012/5/18 2:25:12 [4000] instances is trained.
+[TRACE] 2012/5/18 2:25:13 [5000] instances is trained.
+[TRACE] 2012/5/18 2:25:14 [6000] instances is trained.
+[TRACE] 2012/5/18 2:25:14 [7000] instances is trained.
+[TRACE] 2012/5/18 2:25:15 [8000] instances is trained.
+[TRACE] 2012/5/18 2:25:15 [9000] instances is trained.
+[TRACE] 2012/5/18 2:25:16 [10000] instances is trained.
+[TRACE] 2012/5/18 2:25:17 [11000] instances is trained.
+[TRACE] 2012/5/18 2:25:17 [12000] instances is trained.
+[TRACE] 2012/5/18 2:25:18 [13000] instances is trained.
+[TRACE] 2012/5/18 2:25:18 [14000] instances is trained.
+[TRACE] 2012/5/18 2:25:19 [15000] instances is trained.
+[TRACE] 2012/5/18 2:25:19 [16000] instances is trained.
+[TRACE] 2012/5/18 2:25:20 [17000] instances is trained.
+[TRACE] 2012/5/18 2:25:20 [18000] instances is trained.
+>> Reporting on iteration (8)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.94695742(6427/6787)	R=0.94223721(6427/6821)	F=0.94459142
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6427/6784)	R=0.94251357(6427/6819)	F=0.94493862
+* Labels:     p=0.95391146(11011/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97137546(7839/8070)	R=0.97889610(7839/8008)	F=0.97512128
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7839/8070)	R=0.97889610(7839/8008)	F=0.97512128
+* Labels:     p=0.97961858(13458/13738)
+----------
+[TRACE] 2012/5/18 2:25:25 [1000] instances is trained.
+[TRACE] 2012/5/18 2:25:26 [2000] instances is trained.
+[TRACE] 2012/5/18 2:25:26 [3000] instances is trained.
+[TRACE] 2012/5/18 2:25:27 [4000] instances is trained.
+[TRACE] 2012/5/18 2:25:28 [5000] instances is trained.
+[TRACE] 2012/5/18 2:25:28 [6000] instances is trained.
+[TRACE] 2012/5/18 2:25:29 [7000] instances is trained.
+[TRACE] 2012/5/18 2:25:30 [8000] instances is trained.
+[TRACE] 2012/5/18 2:25:30 [9000] instances is trained.
+[TRACE] 2012/5/18 2:25:31 [10000] instances is trained.
+[TRACE] 2012/5/18 2:25:31 [11000] instances is trained.
+[TRACE] 2012/5/18 2:25:32 [12000] instances is trained.
+[TRACE] 2012/5/18 2:25:32 [13000] instances is trained.
+[TRACE] 2012/5/18 2:25:33 [14000] instances is trained.
+[TRACE] 2012/5/18 2:25:34 [15000] instances is trained.
+[TRACE] 2012/5/18 2:25:34 [16000] instances is trained.
+[TRACE] 2012/5/18 2:25:35 [17000] instances is trained.
+[TRACE] 2012/5/18 2:25:35 [18000] instances is trained.
+>> Reporting on iteration (9)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.94815906(6438/6790)	R=0.94384988(6438/6821)	F=0.94599956
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6438/6787)	R=0.94412670(6438/6819)	F=0.94634720
+* Labels:     p=0.95512432(11025/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97174721(7842/8070)	R=0.97927073(7842/8008)	F=0.97549446
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7842/8070)	R=0.97927073(7842/8008)	F=0.97549446
+* Labels:     p=0.97990974(13462/13738)
+----------
+[TRACE] 2012/5/18 2:25:40 [1000] instances is trained.
+[TRACE] 2012/5/18 2:25:41 [2000] instances is trained.
+[TRACE] 2012/5/18 2:25:41 [3000] instances is trained.
+[TRACE] 2012/5/18 2:25:42 [4000] instances is trained.
+[TRACE] 2012/5/18 2:25:43 [5000] instances is trained.
+[TRACE] 2012/5/18 2:25:43 [6000] instances is trained.
+[TRACE] 2012/5/18 2:25:44 [7000] instances is trained.
+[TRACE] 2012/5/18 2:25:44 [8000] instances is trained.
+[TRACE] 2012/5/18 2:25:45 [9000] instances is trained.
+[TRACE] 2012/5/18 2:25:46 [10000] instances is trained.
+[TRACE] 2012/5/18 2:25:46 [11000] instances is trained.
+[TRACE] 2012/5/18 2:25:47 [12000] instances is trained.
+[TRACE] 2012/5/18 2:25:47 [13000] instances is trained.
+[TRACE] 2012/5/18 2:25:48 [14000] instances is trained.
+[TRACE] 2012/5/18 2:25:48 [15000] instances is trained.
+[TRACE] 2012/5/18 2:25:49 [16000] instances is trained.
+[TRACE] 2012/5/18 2:25:49 [17000] instances is trained.
+[TRACE] 2012/5/18 2:25:50 [18000] instances is trained.
+>> Reporting on iteration (10)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.94873306(6440/6788)	R=0.94414309(6440/6821)	F=0.94643251
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6440/6785)	R=0.94442000(6440/6819)	F=0.94678036
+* Labels:     p=0.95547085(11029/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97198463(7841/8067)	R=0.97914585(7841/8008)	F=0.97555210
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7841/8067)	R=0.97914585(7841/8008)	F=0.97555210
+* Labels:     p=0.97998253(13463/13738)
+----------
+[TRACE] 2012/5/18 2:25:55 [1000] instances is trained.
+[TRACE] 2012/5/18 2:25:55 [2000] instances is trained.
+[TRACE] 2012/5/18 2:25:56 [3000] instances is trained.
+[TRACE] 2012/5/18 2:25:57 [4000] instances is trained.
+[TRACE] 2012/5/18 2:25:57 [5000] instances is trained.
+[TRACE] 2012/5/18 2:25:58 [6000] instances is trained.
+[TRACE] 2012/5/18 2:25:59 [7000] instances is trained.
+[TRACE] 2012/5/18 2:25:59 [8000] instances is trained.
+[TRACE] 2012/5/18 2:26:0 [9000] instances is trained.
+[TRACE] 2012/5/18 2:26:0 [10000] instances is trained.
+[TRACE] 2012/5/18 2:26:1 [11000] instances is trained.
+[TRACE] 2012/5/18 2:26:1 [12000] instances is trained.
+[TRACE] 2012/5/18 2:26:2 [13000] instances is trained.
+[TRACE] 2012/5/18 2:26:3 [14000] instances is trained.
+[TRACE] 2012/5/18 2:26:3 [15000] instances is trained.
+[TRACE] 2012/5/18 2:26:4 [16000] instances is trained.
+[TRACE] 2012/5/18 2:26:4 [17000] instances is trained.
+[TRACE] 2012/5/18 2:26:5 [18000] instances is trained.
+>> Reporting on iteration (11)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.94961697(6446/6788)	R=0.94502272(6446/6821)	F=0.94731428
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6446/6785)	R=0.94529990(6446/6819)	F=0.94766245
+* Labels:     p=0.95616391(11037/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97210513(7841/8066)	R=0.97914585(7841/8008)	F=0.97561279
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7841/8066)	R=0.97914585(7841/8008)	F=0.97561279
+* Labels:     p=0.98012811(13465/13738)
+----------
+[TRACE] 2012/5/18 2:26:9 [1000] instances is trained.
+[TRACE] 2012/5/18 2:26:10 [2000] instances is trained.
+[TRACE] 2012/5/18 2:26:11 [3000] instances is trained.
+[TRACE] 2012/5/18 2:26:12 [4000] instances is trained.
+[TRACE] 2012/5/18 2:26:12 [5000] instances is trained.
+[TRACE] 2012/5/18 2:26:13 [6000] instances is trained.
+[TRACE] 2012/5/18 2:26:13 [7000] instances is trained.
+[TRACE] 2012/5/18 2:26:14 [8000] instances is trained.
+[TRACE] 2012/5/18 2:26:15 [9000] instances is trained.
+[TRACE] 2012/5/18 2:26:15 [10000] instances is trained.
+[TRACE] 2012/5/18 2:26:16 [11000] instances is trained.
+[TRACE] 2012/5/18 2:26:16 [12000] instances is trained.
+[TRACE] 2012/5/18 2:26:17 [13000] instances is trained.
+[TRACE] 2012/5/18 2:26:18 [14000] instances is trained.
+[TRACE] 2012/5/18 2:26:18 [15000] instances is trained.
+[TRACE] 2012/5/18 2:26:19 [16000] instances is trained.
+[TRACE] 2012/5/18 2:26:19 [17000] instances is trained.
+[TRACE] 2012/5/18 2:26:20 [18000] instances is trained.
+>> Reporting on iteration (12)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.94961697(6446/6788)	R=0.94502272(6446/6821)	F=0.94731428
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6446/6785)	R=0.94529990(6446/6819)	F=0.94766245
+* Labels:     p=0.95616391(11037/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97210513(7841/8066)	R=0.97914585(7841/8008)	F=0.97561279
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7841/8066)	R=0.97914585(7841/8008)	F=0.97561279
+* Labels:     p=0.98012811(13465/13738)
+----------
+[TRACE] 2012/5/18 2:26:25 [1000] instances is trained.
+[TRACE] 2012/5/18 2:26:25 [2000] instances is trained.
+[TRACE] 2012/5/18 2:26:26 [3000] instances is trained.
+[TRACE] 2012/5/18 2:26:27 [4000] instances is trained.
+[TRACE] 2012/5/18 2:26:27 [5000] instances is trained.
+[TRACE] 2012/5/18 2:26:28 [6000] instances is trained.
+[TRACE] 2012/5/18 2:26:29 [7000] instances is trained.
+[TRACE] 2012/5/18 2:26:29 [8000] instances is trained.
+[TRACE] 2012/5/18 2:26:30 [9000] instances is trained.
+[TRACE] 2012/5/18 2:26:30 [10000] instances is trained.
+[TRACE] 2012/5/18 2:26:31 [11000] instances is trained.
+[TRACE] 2012/5/18 2:26:31 [12000] instances is trained.
+[TRACE] 2012/5/18 2:26:32 [13000] instances is trained.
+[TRACE] 2012/5/18 2:26:33 [14000] instances is trained.
+[TRACE] 2012/5/18 2:26:33 [15000] instances is trained.
+[TRACE] 2012/5/18 2:26:34 [16000] instances is trained.
+[TRACE] 2012/5/18 2:26:34 [17000] instances is trained.
+[TRACE] 2012/5/18 2:26:35 [18000] instances is trained.
+>> Reporting on iteration (13)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95034625(6450/6787)	R=0.94560915(6450/6821)	F=0.94797178
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6450/6784)	R=0.94588649(6450/6819)	F=0.94832022
+* Labels:     p=0.95668370(11043/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97173320(7838/8066)	R=0.97877123(7838/8008)	F=0.97523952
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7838/8066)	R=0.97877123(7838/8008)	F=0.97523952
+* Labels:     p=0.97983695(13461/13738)
+----------
+[TRACE] 2012/5/18 2:26:39 [1000] instances is trained.
+[TRACE] 2012/5/18 2:26:40 [2000] instances is trained.
+[TRACE] 2012/5/18 2:26:41 [3000] instances is trained.
+[TRACE] 2012/5/18 2:26:41 [4000] instances is trained.
+[TRACE] 2012/5/18 2:26:42 [5000] instances is trained.
+[TRACE] 2012/5/18 2:26:43 [6000] instances is trained.
+[TRACE] 2012/5/18 2:26:43 [7000] instances is trained.
+[TRACE] 2012/5/18 2:26:44 [8000] instances is trained.
+[TRACE] 2012/5/18 2:26:44 [9000] instances is trained.
+[TRACE] 2012/5/18 2:26:45 [10000] instances is trained.
+[TRACE] 2012/5/18 2:26:46 [11000] instances is trained.
+[TRACE] 2012/5/18 2:26:46 [12000] instances is trained.
+[TRACE] 2012/5/18 2:26:47 [13000] instances is trained.
+[TRACE] 2012/5/18 2:26:47 [14000] instances is trained.
+[TRACE] 2012/5/18 2:26:48 [15000] instances is trained.
+[TRACE] 2012/5/18 2:26:48 [16000] instances is trained.
+[TRACE] 2012/5/18 2:26:49 [17000] instances is trained.
+[TRACE] 2012/5/18 2:26:49 [18000] instances is trained.
+>> Reporting on iteration (14)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95063366(6451/6786)	R=0.94575575(6451/6821)	F=0.94818843
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6451/6783)	R=0.94603314(6451/6819)	F=0.94853698
+* Labels:     p=0.95685697(11045/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97112406(7836/8069)	R=0.97852148(7836/8008)	F=0.97480873
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7836/8069)	R=0.97852148(7836/8008)	F=0.97480873
+* Labels:     p=0.97940020(13455/13738)
+----------
+[TRACE] 2012/5/18 2:26:54 [1000] instances is trained.
+[TRACE] 2012/5/18 2:26:55 [2000] instances is trained.
+[TRACE] 2012/5/18 2:26:55 [3000] instances is trained.
+[TRACE] 2012/5/18 2:26:56 [4000] instances is trained.
+[TRACE] 2012/5/18 2:26:57 [5000] instances is trained.
+[TRACE] 2012/5/18 2:26:57 [6000] instances is trained.
+[TRACE] 2012/5/18 2:26:58 [7000] instances is trained.
+[TRACE] 2012/5/18 2:26:59 [8000] instances is trained.
+[TRACE] 2012/5/18 2:26:59 [9000] instances is trained.
+[TRACE] 2012/5/18 2:27:0 [10000] instances is trained.
+[TRACE] 2012/5/18 2:27:0 [11000] instances is trained.
+[TRACE] 2012/5/18 2:27:1 [12000] instances is trained.
+[TRACE] 2012/5/18 2:27:1 [13000] instances is trained.
+[TRACE] 2012/5/18 2:27:2 [14000] instances is trained.
+[TRACE] 2012/5/18 2:27:2 [15000] instances is trained.
+[TRACE] 2012/5/18 2:27:3 [16000] instances is trained.
+[TRACE] 2012/5/18 2:27:4 [17000] instances is trained.
+[TRACE] 2012/5/18 2:27:4 [18000] instances is trained.
+>> Reporting on iteration (15)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95135613(6454/6784)	R=0.94619557(6454/6821)	F=0.94876883
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6454/6781)	R=0.94647309(6454/6819)	F=0.94911765
+* Labels:     p=0.95737677(11051/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97112406(7836/8069)	R=0.97852148(7836/8008)	F=0.97480873
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7836/8069)	R=0.97852148(7836/8008)	F=0.97480873
+* Labels:     p=0.97940020(13455/13738)
+----------
+[TRACE] 2012/5/18 2:27:9 [1000] instances is trained.
+[TRACE] 2012/5/18 2:27:9 [2000] instances is trained.
+[TRACE] 2012/5/18 2:27:10 [3000] instances is trained.
+[TRACE] 2012/5/18 2:27:11 [4000] instances is trained.
+[TRACE] 2012/5/18 2:27:11 [5000] instances is trained.
+[TRACE] 2012/5/18 2:27:12 [6000] instances is trained.
+[TRACE] 2012/5/18 2:27:13 [7000] instances is trained.
+[TRACE] 2012/5/18 2:27:13 [8000] instances is trained.
+[TRACE] 2012/5/18 2:27:14 [9000] instances is trained.
+[TRACE] 2012/5/18 2:27:14 [10000] instances is trained.
+[TRACE] 2012/5/18 2:27:15 [11000] instances is trained.
+[TRACE] 2012/5/18 2:27:15 [12000] instances is trained.
+[TRACE] 2012/5/18 2:27:16 [13000] instances is trained.
+[TRACE] 2012/5/18 2:27:17 [14000] instances is trained.
+[TRACE] 2012/5/18 2:27:17 [15000] instances is trained.
+[TRACE] 2012/5/18 2:27:18 [16000] instances is trained.
+[TRACE] 2012/5/18 2:27:18 [17000] instances is trained.
+[TRACE] 2012/5/18 2:27:19 [18000] instances is trained.
+>> Reporting on iteration (16)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95136330(6455/6785)	R=0.94634218(6455/6821)	F=0.94884610
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6455/6782)	R=0.94661974(6455/6819)	F=0.94919491
+* Labels:     p=0.95746340(11052/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97087980(7835/8070)	R=0.97839660(7835/8008)	F=0.97462371
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7835/8070)	R=0.97839660(7835/8008)	F=0.97462371
+* Labels:     p=0.97925462(13453/13738)
+----------
+[TRACE] 2012/5/18 2:27:23 [1000] instances is trained.
+[TRACE] 2012/5/18 2:27:24 [2000] instances is trained.
+[TRACE] 2012/5/18 2:27:25 [3000] instances is trained.
+[TRACE] 2012/5/18 2:27:25 [4000] instances is trained.
+[TRACE] 2012/5/18 2:27:26 [5000] instances is trained.
+[TRACE] 2012/5/18 2:27:27 [6000] instances is trained.
+[TRACE] 2012/5/18 2:27:27 [7000] instances is trained.
+[TRACE] 2012/5/18 2:27:28 [8000] instances is trained.
+[TRACE] 2012/5/18 2:27:28 [9000] instances is trained.
+[TRACE] 2012/5/18 2:27:29 [10000] instances is trained.
+[TRACE] 2012/5/18 2:27:30 [11000] instances is trained.
+[TRACE] 2012/5/18 2:27:30 [12000] instances is trained.
+[TRACE] 2012/5/18 2:27:31 [13000] instances is trained.
+[TRACE] 2012/5/18 2:27:31 [14000] instances is trained.
+[TRACE] 2012/5/18 2:27:32 [15000] instances is trained.
+[TRACE] 2012/5/18 2:27:32 [16000] instances is trained.
+[TRACE] 2012/5/18 2:27:33 [17000] instances is trained.
+[TRACE] 2012/5/18 2:27:33 [18000] instances is trained.
+>> Reporting on iteration (17)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95136330(6455/6785)	R=0.94634218(6455/6821)	F=0.94884610
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6455/6782)	R=0.94661974(6455/6819)	F=0.94919491
+* Labels:     p=0.95746340(11052/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97087980(7835/8070)	R=0.97839660(7835/8008)	F=0.97462371
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7835/8070)	R=0.97839660(7835/8008)	F=0.97462371
+* Labels:     p=0.97925462(13453/13738)
+----------
+[TRACE] 2012/5/18 2:27:38 [1000] instances is trained.
+[TRACE] 2012/5/18 2:27:39 [2000] instances is trained.
+[TRACE] 2012/5/18 2:27:39 [3000] instances is trained.
+[TRACE] 2012/5/18 2:27:40 [4000] instances is trained.
+[TRACE] 2012/5/18 2:27:41 [5000] instances is trained.
+[TRACE] 2012/5/18 2:27:41 [6000] instances is trained.
+[TRACE] 2012/5/18 2:27:42 [7000] instances is trained.
+[TRACE] 2012/5/18 2:27:42 [8000] instances is trained.
+[TRACE] 2012/5/18 2:27:43 [9000] instances is trained.
+[TRACE] 2012/5/18 2:27:44 [10000] instances is trained.
+[TRACE] 2012/5/18 2:27:44 [11000] instances is trained.
+[TRACE] 2012/5/18 2:27:45 [12000] instances is trained.
+[TRACE] 2012/5/18 2:27:45 [13000] instances is trained.
+[TRACE] 2012/5/18 2:27:46 [14000] instances is trained.
+[TRACE] 2012/5/18 2:27:46 [15000] instances is trained.
+[TRACE] 2012/5/18 2:27:47 [16000] instances is trained.
+[TRACE] 2012/5/18 2:27:47 [17000] instances is trained.
+[TRACE] 2012/5/18 2:27:48 [18000] instances is trained.
+>> Reporting on iteration (18)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95165807(6457/6785)	R=0.94663539(6457/6821)	F=0.94914009
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6457/6782)	R=0.94691304(6457/6819)	F=0.94948901
+* Labels:     p=0.95772330(11055/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97075951(7835/8071)	R=0.97839660(7835/8008)	F=0.97456309
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7835/8071)	R=0.97839660(7835/8008)	F=0.97456309
+* Labels:     p=0.97918183(13452/13738)
+----------
+[TRACE] 2012/5/18 2:27:53 [1000] instances is trained.
+[TRACE] 2012/5/18 2:27:53 [2000] instances is trained.
+[TRACE] 2012/5/18 2:27:54 [3000] instances is trained.
+[TRACE] 2012/5/18 2:27:55 [4000] instances is trained.
+[TRACE] 2012/5/18 2:27:55 [5000] instances is trained.
+[TRACE] 2012/5/18 2:27:56 [6000] instances is trained.
+[TRACE] 2012/5/18 2:27:57 [7000] instances is trained.
+[TRACE] 2012/5/18 2:27:57 [8000] instances is trained.
+[TRACE] 2012/5/18 2:27:58 [9000] instances is trained.
+[TRACE] 2012/5/18 2:27:58 [10000] instances is trained.
+[TRACE] 2012/5/18 2:27:59 [11000] instances is trained.
+[TRACE] 2012/5/18 2:27:59 [12000] instances is trained.
+[TRACE] 2012/5/18 2:28:0 [13000] instances is trained.
+[TRACE] 2012/5/18 2:28:1 [14000] instances is trained.
+[TRACE] 2012/5/18 2:28:1 [15000] instances is trained.
+[TRACE] 2012/5/18 2:28:2 [16000] instances is trained.
+[TRACE] 2012/5/18 2:28:2 [17000] instances is trained.
+[TRACE] 2012/5/18 2:28:3 [18000] instances is trained.
+>> Reporting on iteration (19)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95139196(6459/6789)	R=0.94692860(6459/6821)	F=0.94915503
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6459/6786)	R=0.94720634(6459/6819)	F=0.94950386
+* Labels:     p=0.95772330(11055/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97087619(7834/8069)	R=0.97827173(7834/8008)	F=0.97455993
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7834/8069)	R=0.97827173(7834/8008)	F=0.97455993
+* Labels:     p=0.97918183(13452/13738)
+----------
+[TRACE] 2012/5/18 2:28:7 [1000] instances is trained.
+[TRACE] 2012/5/18 2:28:8 [2000] instances is trained.
+[TRACE] 2012/5/18 2:28:9 [3000] instances is trained.
+[TRACE] 2012/5/18 2:28:9 [4000] instances is trained.
+[TRACE] 2012/5/18 2:28:10 [5000] instances is trained.
+[TRACE] 2012/5/18 2:28:11 [6000] instances is trained.
+[TRACE] 2012/5/18 2:28:11 [7000] instances is trained.
+[TRACE] 2012/5/18 2:28:12 [8000] instances is trained.
+[TRACE] 2012/5/18 2:28:12 [9000] instances is trained.
+[TRACE] 2012/5/18 2:28:13 [10000] instances is trained.
+[TRACE] 2012/5/18 2:28:14 [11000] instances is trained.
+[TRACE] 2012/5/18 2:28:14 [12000] instances is trained.
+[TRACE] 2012/5/18 2:28:15 [13000] instances is trained.
+[TRACE] 2012/5/18 2:28:15 [14000] instances is trained.
+[TRACE] 2012/5/18 2:28:16 [15000] instances is trained.
+[TRACE] 2012/5/18 2:28:16 [16000] instances is trained.
+[TRACE] 2012/5/18 2:28:17 [17000] instances is trained.
+[TRACE] 2012/5/18 2:28:17 [18000] instances is trained.
+>> Reporting on iteration (20)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95139912(6460/6790)	R=0.94707521(6460/6821)	F=0.94923224
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95780993(11056/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97074864(7832/8068)	R=0.97802198(7832/8008)	F=0.97437173
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7832/8068)	R=0.97802198(7832/8008)	F=0.97437173
+* Labels:     p=0.97903625(13450/13738)
+----------
+[TRACE] 2012/5/18 2:28:22 [1000] instances is trained.
+[TRACE] 2012/5/18 2:28:23 [2000] instances is trained.
+[TRACE] 2012/5/18 2:28:23 [3000] instances is trained.
+[TRACE] 2012/5/18 2:28:24 [4000] instances is trained.
+[TRACE] 2012/5/18 2:28:25 [5000] instances is trained.
+[TRACE] 2012/5/18 2:28:25 [6000] instances is trained.
+[TRACE] 2012/5/18 2:28:26 [7000] instances is trained.
+[TRACE] 2012/5/18 2:28:27 [8000] instances is trained.
+[TRACE] 2012/5/18 2:28:27 [9000] instances is trained.
+[TRACE] 2012/5/18 2:28:28 [10000] instances is trained.
+[TRACE] 2012/5/18 2:28:28 [11000] instances is trained.
+[TRACE] 2012/5/18 2:28:29 [12000] instances is trained.
+[TRACE] 2012/5/18 2:28:29 [13000] instances is trained.
+[TRACE] 2012/5/18 2:28:30 [14000] instances is trained.
+[TRACE] 2012/5/18 2:28:30 [15000] instances is trained.
+[TRACE] 2012/5/18 2:28:31 [16000] instances is trained.
+[TRACE] 2012/5/18 2:28:31 [17000] instances is trained.
+[TRACE] 2012/5/18 2:28:32 [18000] instances is trained.
+>> Reporting on iteration (21)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95139912(6460/6790)	R=0.94707521(6460/6821)	F=0.94923224
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95780993(11056/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97074864(7832/8068)	R=0.97802198(7832/8008)	F=0.97437173
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7832/8068)	R=0.97802198(7832/8008)	F=0.97437173
+* Labels:     p=0.97903625(13450/13738)
+----------
+[TRACE] 2012/5/18 2:28:37 [1000] instances is trained.
+[TRACE] 2012/5/18 2:28:37 [2000] instances is trained.
+[TRACE] 2012/5/18 2:28:38 [3000] instances is trained.
+[TRACE] 2012/5/18 2:28:39 [4000] instances is trained.
+[TRACE] 2012/5/18 2:28:39 [5000] instances is trained.
+[TRACE] 2012/5/18 2:28:40 [6000] instances is trained.
+[TRACE] 2012/5/18 2:28:41 [7000] instances is trained.
+[TRACE] 2012/5/18 2:28:41 [8000] instances is trained.
+[TRACE] 2012/5/18 2:28:42 [9000] instances is trained.
+[TRACE] 2012/5/18 2:28:42 [10000] instances is trained.
+[TRACE] 2012/5/18 2:28:43 [11000] instances is trained.
+[TRACE] 2012/5/18 2:28:43 [12000] instances is trained.
+[TRACE] 2012/5/18 2:28:44 [13000] instances is trained.
+[TRACE] 2012/5/18 2:28:45 [14000] instances is trained.
+[TRACE] 2012/5/18 2:28:45 [15000] instances is trained.
+[TRACE] 2012/5/18 2:28:46 [16000] instances is trained.
+[TRACE] 2012/5/18 2:28:46 [17000] instances is trained.
+[TRACE] 2012/5/18 2:28:47 [18000] instances is trained.
+>> Reporting on iteration (22)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95139912(6460/6790)	R=0.94707521(6460/6821)	F=0.94923224
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95780993(11056/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97074864(7832/8068)	R=0.97802198(7832/8008)	F=0.97437173
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7832/8068)	R=0.97802198(7832/8008)	F=0.97437173
+* Labels:     p=0.97903625(13450/13738)
+----------
+[TRACE] 2012/5/18 2:28:51 [1000] instances is trained.
+[TRACE] 2012/5/18 2:28:52 [2000] instances is trained.
+[TRACE] 2012/5/18 2:28:53 [3000] instances is trained.
+[TRACE] 2012/5/18 2:28:53 [4000] instances is trained.
+[TRACE] 2012/5/18 2:28:54 [5000] instances is trained.
+[TRACE] 2012/5/18 2:28:55 [6000] instances is trained.
+[TRACE] 2012/5/18 2:28:55 [7000] instances is trained.
+[TRACE] 2012/5/18 2:28:56 [8000] instances is trained.
+[TRACE] 2012/5/18 2:28:56 [9000] instances is trained.
+[TRACE] 2012/5/18 2:28:57 [10000] instances is trained.
+[TRACE] 2012/5/18 2:28:58 [11000] instances is trained.
+[TRACE] 2012/5/18 2:28:58 [12000] instances is trained.
+[TRACE] 2012/5/18 2:28:59 [13000] instances is trained.
+[TRACE] 2012/5/18 2:28:59 [14000] instances is trained.
+[TRACE] 2012/5/18 2:29:0 [15000] instances is trained.
+[TRACE] 2012/5/18 2:29:0 [16000] instances is trained.
+[TRACE] 2012/5/18 2:29:1 [17000] instances is trained.
+[TRACE] 2012/5/18 2:29:1 [18000] instances is trained.
+>> Reporting on iteration (23)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95139912(6460/6790)	R=0.94707521(6460/6821)	F=0.94923224
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95780993(11056/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97050074(7830/8068)	R=0.97777223(7830/8008)	F=0.97412292
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7830/8068)	R=0.97777223(7830/8008)	F=0.97412292
+* Labels:     p=0.97881788(13447/13738)
+----------
+[TRACE] 2012/5/18 2:29:6 [1000] instances is trained.
+[TRACE] 2012/5/18 2:29:7 [2000] instances is trained.
+[TRACE] 2012/5/18 2:29:8 [3000] instances is trained.
+[TRACE] 2012/5/18 2:29:8 [4000] instances is trained.
+[TRACE] 2012/5/18 2:29:9 [5000] instances is trained.
+[TRACE] 2012/5/18 2:29:9 [6000] instances is trained.
+[TRACE] 2012/5/18 2:29:10 [7000] instances is trained.
+[TRACE] 2012/5/18 2:29:11 [8000] instances is trained.
+[TRACE] 2012/5/18 2:29:11 [9000] instances is trained.
+[TRACE] 2012/5/18 2:29:12 [10000] instances is trained.
+[TRACE] 2012/5/18 2:29:12 [11000] instances is trained.
+[TRACE] 2012/5/18 2:29:13 [12000] instances is trained.
+[TRACE] 2012/5/18 2:29:13 [13000] instances is trained.
+[TRACE] 2012/5/18 2:29:14 [14000] instances is trained.
+[TRACE] 2012/5/18 2:29:15 [15000] instances is trained.
+[TRACE] 2012/5/18 2:29:15 [16000] instances is trained.
+[TRACE] 2012/5/18 2:29:16 [17000] instances is trained.
+[TRACE] 2012/5/18 2:29:16 [18000] instances is trained.
+>> Reporting on iteration (24)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95139912(6460/6790)	R=0.94707521(6460/6821)	F=0.94923224
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95780993(11056/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97062833(7832/8069)	R=0.97802198(7832/8008)	F=0.97431113
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7832/8069)	R=0.97802198(7832/8008)	F=0.97431113
+* Labels:     p=0.97896346(13449/13738)
+----------
+[TRACE] 2012/5/18 2:29:21 [1000] instances is trained.
+[TRACE] 2012/5/18 2:29:21 [2000] instances is trained.
+[TRACE] 2012/5/18 2:29:22 [3000] instances is trained.
+[TRACE] 2012/5/18 2:29:23 [4000] instances is trained.
+[TRACE] 2012/5/18 2:29:23 [5000] instances is trained.
+[TRACE] 2012/5/18 2:29:24 [6000] instances is trained.
+[TRACE] 2012/5/18 2:29:25 [7000] instances is trained.
+[TRACE] 2012/5/18 2:29:25 [8000] instances is trained.
+[TRACE] 2012/5/18 2:29:26 [9000] instances is trained.
+[TRACE] 2012/5/18 2:29:26 [10000] instances is trained.
+[TRACE] 2012/5/18 2:29:27 [11000] instances is trained.
+[TRACE] 2012/5/18 2:29:28 [12000] instances is trained.
+[TRACE] 2012/5/18 2:29:28 [13000] instances is trained.
+[TRACE] 2012/5/18 2:29:29 [14000] instances is trained.
+[TRACE] 2012/5/18 2:29:29 [15000] instances is trained.
+[TRACE] 2012/5/18 2:29:30 [16000] instances is trained.
+[TRACE] 2012/5/18 2:29:30 [17000] instances is trained.
+[TRACE] 2012/5/18 2:29:31 [18000] instances is trained.
+>> Reporting on iteration (25)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95139912(6460/6790)	R=0.94707521(6460/6821)	F=0.94923224
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95780993(11056/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97062833(7832/8069)	R=0.97802198(7832/8008)	F=0.97431113
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7832/8069)	R=0.97802198(7832/8008)	F=0.97431113
+* Labels:     p=0.97896346(13449/13738)
+----------
+[TRACE] 2012/5/18 2:29:35 [1000] instances is trained.
+[TRACE] 2012/5/18 2:29:36 [2000] instances is trained.
+[TRACE] 2012/5/18 2:29:37 [3000] instances is trained.
+[TRACE] 2012/5/18 2:29:38 [4000] instances is trained.
+[TRACE] 2012/5/18 2:29:38 [5000] instances is trained.
+[TRACE] 2012/5/18 2:29:39 [6000] instances is trained.
+[TRACE] 2012/5/18 2:29:39 [7000] instances is trained.
+[TRACE] 2012/5/18 2:29:40 [8000] instances is trained.
+[TRACE] 2012/5/18 2:29:41 [9000] instances is trained.
+[TRACE] 2012/5/18 2:29:41 [10000] instances is trained.
+[TRACE] 2012/5/18 2:29:42 [11000] instances is trained.
+[TRACE] 2012/5/18 2:29:42 [12000] instances is trained.
+[TRACE] 2012/5/18 2:29:43 [13000] instances is trained.
+[TRACE] 2012/5/18 2:29:43 [14000] instances is trained.
+[TRACE] 2012/5/18 2:29:44 [15000] instances is trained.
+[TRACE] 2012/5/18 2:29:44 [16000] instances is trained.
+[TRACE] 2012/5/18 2:29:45 [17000] instances is trained.
+[TRACE] 2012/5/18 2:29:45 [18000] instances is trained.
+>> Reporting on iteration (26)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95139912(6460/6790)	R=0.94707521(6460/6821)	F=0.94923224
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95780993(11056/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97062833(7832/8069)	R=0.97802198(7832/8008)	F=0.97431113
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7832/8069)	R=0.97802198(7832/8008)	F=0.97431113
+* Labels:     p=0.97896346(13449/13738)
+----------
+[TRACE] 2012/5/18 2:29:50 [1000] instances is trained.
+[TRACE] 2012/5/18 2:29:51 [2000] instances is trained.
+[TRACE] 2012/5/18 2:29:52 [3000] instances is trained.
+[TRACE] 2012/5/18 2:29:52 [4000] instances is trained.
+[TRACE] 2012/5/18 2:29:53 [5000] instances is trained.
+[TRACE] 2012/5/18 2:29:53 [6000] instances is trained.
+[TRACE] 2012/5/18 2:29:54 [7000] instances is trained.
+[TRACE] 2012/5/18 2:29:55 [8000] instances is trained.
+[TRACE] 2012/5/18 2:29:55 [9000] instances is trained.
+[TRACE] 2012/5/18 2:29:56 [10000] instances is trained.
+[TRACE] 2012/5/18 2:29:56 [11000] instances is trained.
+[TRACE] 2012/5/18 2:29:57 [12000] instances is trained.
+[TRACE] 2012/5/18 2:29:58 [13000] instances is trained.
+[TRACE] 2012/5/18 2:29:58 [14000] instances is trained.
+[TRACE] 2012/5/18 2:29:59 [15000] instances is trained.
+[TRACE] 2012/5/18 2:29:59 [16000] instances is trained.
+[TRACE] 2012/5/18 2:30:0 [17000] instances is trained.
+[TRACE] 2012/5/18 2:30:0 [18000] instances is trained.
+>> Reporting on iteration (27)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95125902(6460/6791)	R=0.94707521(6460/6821)	F=0.94916250
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95755003(11053/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97062833(7832/8069)	R=0.97802198(7832/8008)	F=0.97431113
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7832/8069)	R=0.97802198(7832/8008)	F=0.97431113
+* Labels:     p=0.97896346(13449/13738)
+----------
+[TRACE] 2012/5/18 2:30:5 [1000] instances is trained.
+[TRACE] 2012/5/18 2:30:6 [2000] instances is trained.
+[TRACE] 2012/5/18 2:30:6 [3000] instances is trained.
+[TRACE] 2012/5/18 2:30:7 [4000] instances is trained.
+[TRACE] 2012/5/18 2:30:7 [5000] instances is trained.
+[TRACE] 2012/5/18 2:30:8 [6000] instances is trained.
+[TRACE] 2012/5/18 2:30:9 [7000] instances is trained.
+[TRACE] 2012/5/18 2:30:9 [8000] instances is trained.
+[TRACE] 2012/5/18 2:30:10 [9000] instances is trained.
+[TRACE] 2012/5/18 2:30:10 [10000] instances is trained.
+[TRACE] 2012/5/18 2:30:11 [11000] instances is trained.
+[TRACE] 2012/5/18 2:30:12 [12000] instances is trained.
+[TRACE] 2012/5/18 2:30:12 [13000] instances is trained.
+[TRACE] 2012/5/18 2:30:13 [14000] instances is trained.
+[TRACE] 2012/5/18 2:30:13 [15000] instances is trained.
+[TRACE] 2012/5/18 2:30:14 [16000] instances is trained.
+[TRACE] 2012/5/18 2:30:14 [17000] instances is trained.
+[TRACE] 2012/5/18 2:30:15 [18000] instances is trained.
+>> Reporting on iteration (28)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95125902(6460/6791)	R=0.94707521(6460/6821)	F=0.94916250
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95755003(11053/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97062833(7832/8069)	R=0.97802198(7832/8008)	F=0.97431113
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7832/8069)	R=0.97802198(7832/8008)	F=0.97431113
+* Labels:     p=0.97896346(13449/13738)
+----------
+[TRACE] 2012/5/18 2:30:19 [1000] instances is trained.
+[TRACE] 2012/5/18 2:30:20 [2000] instances is trained.
+[TRACE] 2012/5/18 2:30:21 [3000] instances is trained.
+[TRACE] 2012/5/18 2:30:21 [4000] instances is trained.
+[TRACE] 2012/5/18 2:30:22 [5000] instances is trained.
+[TRACE] 2012/5/18 2:30:23 [6000] instances is trained.
+[TRACE] 2012/5/18 2:30:23 [7000] instances is trained.
+[TRACE] 2012/5/18 2:30:24 [8000] instances is trained.
+[TRACE] 2012/5/18 2:30:25 [9000] instances is trained.
+[TRACE] 2012/5/18 2:30:25 [10000] instances is trained.
+[TRACE] 2012/5/18 2:30:26 [11000] instances is trained.
+[TRACE] 2012/5/18 2:30:26 [12000] instances is trained.
+[TRACE] 2012/5/18 2:30:27 [13000] instances is trained.
+[TRACE] 2012/5/18 2:30:27 [14000] instances is trained.
+[TRACE] 2012/5/18 2:30:28 [15000] instances is trained.
+[TRACE] 2012/5/18 2:30:28 [16000] instances is trained.
+[TRACE] 2012/5/18 2:30:29 [17000] instances is trained.
+[TRACE] 2012/5/18 2:30:29 [18000] instances is trained.
+>> Reporting on iteration (29)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95125902(6460/6791)	R=0.94707521(6460/6821)	F=0.94916250
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95755003(11053/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97038047(7830/8069)	R=0.97777223(7830/8008)	F=0.97406233
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7830/8069)	R=0.97777223(7830/8008)	F=0.97406233
+* Labels:     p=0.97874509(13446/13738)
+----------
+[TRACE] 2012/5/18 2:30:34 [1000] instances is trained.
+[TRACE] 2012/5/18 2:30:35 [2000] instances is trained.
+[TRACE] 2012/5/18 2:30:35 [3000] instances is trained.
+[TRACE] 2012/5/18 2:30:36 [4000] instances is trained.
+[TRACE] 2012/5/18 2:30:37 [5000] instances is trained.
+[TRACE] 2012/5/18 2:30:37 [6000] instances is trained.
+[TRACE] 2012/5/18 2:30:38 [7000] instances is trained.
+[TRACE] 2012/5/18 2:30:39 [8000] instances is trained.
+[TRACE] 2012/5/18 2:30:39 [9000] instances is trained.
+[TRACE] 2012/5/18 2:30:40 [10000] instances is trained.
+[TRACE] 2012/5/18 2:30:40 [11000] instances is trained.
+[TRACE] 2012/5/18 2:30:41 [12000] instances is trained.
+[TRACE] 2012/5/18 2:30:41 [13000] instances is trained.
+[TRACE] 2012/5/18 2:30:42 [14000] instances is trained.
+[TRACE] 2012/5/18 2:30:42 [15000] instances is trained.
+[TRACE] 2012/5/18 2:30:43 [16000] instances is trained.
+[TRACE] 2012/5/18 2:30:43 [17000] instances is trained.
+[TRACE] 2012/5/18 2:30:44 [18000] instances is trained.
+>> Reporting on iteration (30)
+>>> Dev
+Evaluating on 350 instances ...
+* Total Number of labels 6821
+* Total:      P=0.95125902(6460/6791)	R=0.94707521(6460/6821)	F=0.94916250
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(6460/6787)	R=0.94735298(6460/6819)	F=0.94958107
+* Labels:     p=0.95755003(11053/11543)
+>>> Test
+Evaluating on 348 instances ...
+* Total Number of labels 8008
+* Total:      P=0.97038047(7830/8069)	R=0.97777223(7830/8008)	F=0.97406233
+* InLexicon:  P=nan(0/0)	R=nan(0/0)	F=nan
+* OutLexicon: P=nan(7830/8069)	R=0.97777223(7830/8008)	F=0.97406233
+* Labels:     p=0.97874509(13446/13738)
+----------
