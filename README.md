@@ -24,3 +24,10 @@
 4. HMM词性标注
 5. NumPy向量处理
 6. SciPy稀疏矩阵(sparse matrix)操作
+
+自动评测
+-------
+
+相应逻辑还没有实现好。
+计划是可以做成像[这个](https://github.com/Oneplus/scir-training-day/blob/master/1-shell-practice/1-fundamental-of-shell/run.py)这样。
+可以支持判断stdout、文件以及函数返回值的正确性。
