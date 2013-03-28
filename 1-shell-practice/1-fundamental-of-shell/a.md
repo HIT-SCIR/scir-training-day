@@ -8,8 +8,14 @@
 
 样例
 ----
+1.
+```
 ./a.sh hello
 hello
+```
 
+2.
+```
 ./a.sh
 error
+```
