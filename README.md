@@ -11,10 +11,12 @@
 
 ### shell练习
 
+0. shell tutorial
 1. [shell基础练习](https://github.com/Oneplus/scir-training-day/tree/master/1-shell-practice/1-fundamental-of-shell)
 2. [grep练习](https://github.com/Oneplus/scir-training-day/tree/master/1-shell-practice/2-learn-to-grep)
 3. awk练习
 4. sed练习
+5. sort练习
 
 ### python练习
 
