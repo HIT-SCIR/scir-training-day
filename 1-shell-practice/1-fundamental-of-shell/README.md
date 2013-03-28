@@ -30,7 +30,7 @@ Linux Shell入门
 1.
 ```
 ./a.sh hello
-hello
+hellohello
 ```
 
 2.
