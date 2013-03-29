@@ -28,9 +28,74 @@
 4. [HMM词性标注](https://github.com/Oneplus/scir-training-day/tree/master/2-python-practice/4-hmm)
 5. NumPy向量处理与SciPy稀疏矩阵(sparse matrix)操作
 
-自动评测
--------
+用法
+----
 
-相应逻辑还没有实现好。
-计划是可以做成像[这个](https://github.com/Oneplus/scir-training-day/blob/master/1-shell-practice/1-fundamental-of-shell/run.py)这样。
-可以支持判断stdout、文件以及函数返回值的正确性。
+首先需要将训练题下载下来，这个过程中，可能需要一些git的知识。
+具体来讲，你需要做如下几件事：
+
+1. 下载一个和自己的操作系统相符的git
+2. 注册一个github账号
+3. 将这个项目fork到自己的账户下
+4. 将项目clone到本地
+
+然后开始做题吧！
+
+* 用10分钟了解一下[git简易指南](http://rogerdudler.github.com/git-guide/index.zh.html)，磨刀不误砍柴工。
+
+举shell练习中的第一题为例，来说明应该如何做题。
+
+首先，题目写在对应文件夹的README.md中。这道题要写
+
+> 编写一个shell脚本1.sh，这个脚本接受一个命令行参数，并把这个参数打印两次到标准输出。 如果输入没有参数输入或者有多于一个参数输入，输出"error"。
+
+我们可以编写一个脚本1.sh
+
+```
+if [ $# != 1 ] ; then 
+  echo "error"
+else
+	echo $1$1
+fi
+```
+
+然后，为了验证程序的正确性，可以运行自动测试脚本run.py进行测试。由于脚本调用1.sh文件，所以为了使用自动评测文件名一定要正确命名。
+
+看到运行结果
+
+```
+Test  0
+=======
++ RUNNING
+ -- sh 1.sh yes
++ RESULT
+ -- Passed!
+
+Test  1
+=======
++ RUNNING
+ -- sh 1.sh
++ RESULT
+ -- Passed!
+
+2 Runs, 2 Pass
+```
+
+表明进行了两个测试，并且都通过了。
+
+保持更新
+--------
+由于题目、数据都会不断更新，所以使用者应该注意与原项目保持更新。
+
+具体做法可以参考
+
+* [Fork A Repo · github:help](https://help.github.com/articles/fork-a-repo)
+
+自动评测(开发者)
+----------------
+现在已经实现了一些自动评测的功能，其中包括
+
+* stdout与制定字符串对比 
+* stdout与文件对比
+
+计划是可以做成像[这个](https://github.com/Oneplus/scir-training-day/blob/master/1-shell-practice/1-fundamental-of-shell/run.py)这样，这部分还在完善。
