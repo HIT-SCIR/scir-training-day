@@ -17,6 +17,7 @@ Linux Shell入门
 6. iconv
 7. du -sch * | sort -n, df -h
 8. tail -f
+9. time
 
 题目
 ----

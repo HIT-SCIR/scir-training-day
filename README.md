@@ -26,8 +26,7 @@
 2. [NGram统计](https://github.com/Oneplus/scir-training-day/tree/master/2-python-practice/2-ngram-count)
 3. [正向最大匹配分词](https://github.com/Oneplus/scir-training-day/tree/master/2-python-practice/3-max-matching-word-segmentation)
 4. [HMM词性标注](https://github.com/Oneplus/scir-training-day/tree/master/2-python-practice/4-hmm)
-5. NumPy向量处理
-6. SciPy稀疏矩阵(sparse matrix)操作
+5. NumPy向量处理与SciPy稀疏矩阵(sparse matrix)操作
 
 自动评测
 -------
