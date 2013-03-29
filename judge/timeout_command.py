@@ -19,7 +19,7 @@ class TimeoutCommand(threading.Thread):
             self.p.terminate()
             self.join()
         
-        return self.p.stdout.read()
+        return self.p
             
 if __name__=="__main__":
     import stderr
