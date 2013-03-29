@@ -13,6 +13,7 @@ ref_lav.py
 ref_ngram.py
 ref_pku.py
 ref_rav.py
+ref_txt.py
 test.raw
 time.txt
 unlabeled.raw
