@@ -27,13 +27,13 @@ Quiz 1 一个接受命令行参数的shell脚本
 
 样例 1.
 ```
-./a.sh hello
+./1.sh hello
 hellohello
 ```
 
 样例 2.
 ```
-./a.sh
+./1.sh
 error
 ```
 
@@ -51,12 +51,12 @@ Quiz 2 生成时间相关文件夹
 命令：
 
 ```
-sh src/a.sh; ls src
+sh src/2.sh; ls src
 ```
 
 输出：
 
 ```
-a.sh tmp_20130329
+2.sh tmp_20130329
 ```
 
