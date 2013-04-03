@@ -12,6 +12,10 @@
 内容
 ----
 
+### 参考资源
+
+自然语言处理相关参考书和在线课程
+
 ### shell练习
 
 1. [shell基础练习](https://github.com/Oneplus/scir-training-day/tree/master/1-shell-practice/1-fundamental-of-shell)
