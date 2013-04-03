@@ -8,5 +8,5 @@
 在线课程
 -------
 
-1. [Coclumbia](https://class.coursera.org/nlangp-001/class/index)
+1. [Columbia](https://class.coursera.org/nlangp-001/class/index)
 2. [Stanford](https://class.coursera.org/nlp/class/index)
