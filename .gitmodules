@@ -1,0 +1,3 @@
+[submodule "corpusproc"]
+	path = corpusproc
+	url = git://github.com/Oneplus/py-corpusproc.git
