@@ -51,11 +51,7 @@ python build-dict.py train.dat vocab.bin
 
 ---
 
-确保你使用了
-```
-git submodule init
-```
-命令获得了py-corpusproc这个项目
+确保你使用了`git submodule init`命令获得了py-corpusproc这个项目
 
 ---
 
@@ -65,7 +61,11 @@ git submodule init
 ```
 python eval.py --format=segment --mode=segment --eval=output.dat --gold=eval.dat
 ```
-其输出结果表示
+可以看到
+```
+1906    3478    2594    54.80161012%    73.47725520%    62.77997365%
+```
+这些输出结果表示
 ```
 正确切分的词的个数 输出词个数 正确词个数 P值 R值 F值
 ```
