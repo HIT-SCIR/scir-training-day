@@ -14,7 +14,7 @@ if __name__=="__main__":
         sys.exit(1)
 
     try:
-        dic = pickle.load(sys.argv[2])
+        dic = pickle.load(open(sys.argv[2]))
     except:
         print >> sys.stderr, "failed to load dict"
         sys.exit(1)
