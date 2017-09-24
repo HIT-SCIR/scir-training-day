@@ -1,3 +1,6 @@
 [submodule "corpusproc"]
 	path = corpusproc
 	url = git://github.com/Oneplus/py-corpusproc.git
+[submodule "fashion-mnist"]
+	path = fashion-mnist
+	url = git@github.com:zalandoresearch/fashion-mnist.git
