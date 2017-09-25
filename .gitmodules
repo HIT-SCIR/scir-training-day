@@ -2,5 +2,5 @@
 	path = corpusproc
 	url = https://github.com/Oneplus/py-corpusproc.git
 [submodule "fashion-mnist"]
-	path = 4-mlp-fashion-mnist-practice/fashion-mnist
+	path = fashion-mnist
 	url = https://github.com/zalandoresearch/fashion-mnist.git
